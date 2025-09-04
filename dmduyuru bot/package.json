@@ -1,0 +1,25 @@
+{
+  "name": "discord-bulk-dm-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for sending bulk DMs with embed messages",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "better-sqlite3": "^12.2.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "bulk-dm",
+    "embed"
+  ],
+  "author": "Discord Bot Developer",
+  "license": "MIT"
+}
